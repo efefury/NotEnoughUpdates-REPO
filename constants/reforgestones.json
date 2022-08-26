@@ -41,66 +41,6 @@
       }
     }
   },
-  "BEATING_HEART": {
-    "internalName": "BEATING_HEART",
-    "reforgeName": "Bloody",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ACCESSORY",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 750,
-      "UNCOMMON": 1500,
-      "RARE": 3650,
-      "EPIC": 7500,
-      "LEGENDARY": 15000,
-      "MYTHIC": 30000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "strength": 1,
-        "crit_damage": 3,
-        "bonus_attack_speed": 1,
-        "speed": 1
-      },
-      "UNCOMMON": {
-        "strength": 1,
-        "crit_damage": 4,
-        "bonus_attack_speed": 1,
-        "speed": 1
-      },
-      "RARE": {
-        "strength": 1,
-        "crit_damage": 5,
-        "bonus_attack_speed": 1,
-        "speed": 1
-      },
-      "EPIC": {
-        "strength": 2,
-        "crit_damage": 6,
-        "bonus_attack_speed": 2,
-        "speed": 1
-      },
-      "LEGENDARY": {
-        "strength": 3,
-        "crit_damage": 9,
-        "bonus_attack_speed": 2,
-        "speed": 1
-      },
-      "MYTHIC": {
-        "strength": 4,
-        "crit_damage": 14,
-        "bonus_attack_speed": 3,
-        "speed": 1
-      }
-    }
-  },
   "BLESSED_FRUIT": {
     "internalName": "BLESSED_FRUIT",
     "reforgeName": "Blessed",
@@ -123,12 +63,12 @@
       "MYTHIC": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7Farming exp. §7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "UNCOMMON": "Gain §a+2% §7Farming exp. §7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "RARE": "Gain §a+3% §7Farming exp. §7Grants §a+9 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "EPIC": "Gain §a+4% §7Farming exp. §7Grants §a+13 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "LEGENDARY": "Gain §a+5% §7Farming exp. §7Grants §a+16 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops.",
-      "MYTHIC": "Gain §a+6% §7Farming exp. §7Grants §a+20 §6☘ Farming §6Fortune§7, which increases your §7chance for double crops."
+      "COMMON": "Grants §6+5☘ Farming Fortune §7and §3+1☯ Farming Wisdom§7.",
+      "UNCOMMON": "Grants §6+7☘ Farming Fortune §7and §3+2☯ Farming Wisdom§7.",
+      "RARE": "Grants §6+9☘ Farming Fortune §7and §3+3☯ Farming Wisdom§7.",
+      "EPIC": "Grants §6+13☘ Farming Fortune §7and §3+4☯ Farming Wisdom§7.",
+      "LEGENDARY": "Grants §6+16☘ Farming Fortune §7and §3+6☯ Farming Wisdom§7.",
+      "MYTHIC": "Grants §6+20☘ Farming Fortune §7and §3+6☯ Farming Wisdom§7."
     },
     "reforgeStats": {
       "COMMON": {
@@ -199,53 +139,57 @@
       }
     }
   },
-  "GOLDEN_BALL": {
-    "internalName": "GOLDEN_BALL",
-    "reforgeName": "Bountiful",
+  "BLAZE_WAX": {
+    "internalName": "BLAZE_WAX",
+    "reforgeName": "Waxed",
     "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "HOE",
+    "itemTypes": "EQUIPMENT",
     "requiredRarities": [
       "COMMON",
       "UNCOMMON",
       "RARE",
       "EPIC",
       "LEGENDARY",
-      "MYTHIC"
+      "MYTHIC",
+      "DIVINE"
     ],
     "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
-    },
-    "reforgeAbility": {
-      "COMMON": "§7Grants §a+1 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "UNCOMMON": "§7Grants §a+2 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "RARE": "§7Grants §a+3 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "EPIC": "§7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "LEGENDARY": "§7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
-      "MYTHIC": "§7Grants §a+10 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break."
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
     },
     "reforgeStats": {
       "COMMON": {
-        "speed": 1
+        "health": 5,
+        "crit_chance": 2
       },
       "UNCOMMON": {
-        "speed": 2
+        "health": 6,
+        "crit_chance": 3
       },
       "RARE": {
-        "speed": 3
+        "health": 8,
+        "crit_chance": 4
       },
       "EPIC": {
-        "speed": 5
+        "health": 10,
+        "crit_chance": 5
       },
       "LEGENDARY": {
-        "speed": 8
+        "health": 12,
+        "crit_chance": 6
       },
       "MYTHIC": {
-        "speed": 13
+        "health": 15,
+        "crit_chance": 7
+      },
+      "DIVINE": {
+        "health": 20,
+        "crit_chance": 8
       }
     }
   },
@@ -295,56 +239,6 @@
       "MYTHIC": {
         "health": 10,
         "defense": 5
-      }
-    }
-  },
-  "DARK_ORB": {
-    "internalName": "DARK_ORB",
-    "reforgeName": "Shaded",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ACCESSORY",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 25000,
-      "UNCOMMON": 50000,
-      "RARE": 100000,
-      "EPIC": 200000,
-      "LEGENDARY": 400000,
-      "MYTHIC": 800000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "strength": 2,
-        "crit_damage": 3
-      },
-      "UNCOMMON": {
-        "strength": 3,
-        "crit_damage": 4
-      },
-      "RARE": {
-        "strength": 4,
-        "crit_damage": 5
-      },
-      "EPIC": {
-        "strength": 5,
-        "crit_damage": 6
-      },
-      "LEGENDARY": {
-        "strength": 6,
-        "crit_chance": 1,
-        "crit_damage": 9
-      },
-      "MYTHIC": {
-        "strength": 8,
-        "crit_chance": 1,
-        "crit_damage": 14
       }
     }
   },
@@ -513,7 +407,7 @@
       "LEGENDARY": 1000000,
       "MYTHIC": 2000000
     },
-    "reforgeAbility": "Critical hits have a chance to deal up to §a20% §7extra damage.",
+    "reforgeAbility": "Critical hits have a chance to deal up to §a15% §7extra damage.",
     "reforgeStats": {
       "COMMON": {
         "strength": 30,
@@ -719,7 +613,7 @@
   },
   "ENDSTONE_GEODE": {
     "internalName": "ENDSTONE_GEODE",
-    "reforgeName": "Warped",
+    "reforgeName": "Hyper",
     "reforgeType": "blacksmith/reforge_stone",
     "itemTypes": "ARMOR",
     "requiredRarities": [
@@ -821,6 +715,56 @@
       }
     }
   },
+  "GOLDEN_BALL": {
+    "internalName": "GOLDEN_BALL",
+    "reforgeName": "Bountiful",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "HOE",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": {
+      "COMMON": "§7Grants §a+1 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "UNCOMMON": "§7Grants §a+2 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "RARE": "§7Grants §a+3 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "EPIC": "§7Grants §a+5 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "LEGENDARY": "§7Grants §a+7 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break.",
+      "MYTHIC": "§7Grants §a+10 §6☘ Farming §6Fortune§7, which increases your chance for multiple crops. §7Grants §a+0.2 §7Coins on crop break."
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 1
+      },
+      "UNCOMMON": {
+        "speed": 2
+      },
+      "RARE": {
+        "speed": 3
+      },
+      "EPIC": {
+        "speed": 5
+      },
+      "LEGENDARY": {
+        "speed": 8
+      },
+      "MYTHIC": {
+        "speed": 13
+      }
+    }
+  },
   "HARDENED_WOOD": {
     "internalName": "HARDENED_WOOD",
     "reforgeName": "Stiff",
@@ -889,11 +833,6 @@
       "EPIC": 150000,
       "LEGENDARY": 300000,
       "MYTHIC": 600000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "mining_speed": 1
-      }
     },
     "reforgeAbility": "§7Grants §aincreased §6⸕ Mining §6Speed §7the deeper the you §7venture."
   },
@@ -975,6 +914,55 @@
       "MYTHIC": {
         "mining_speed": 60,
         "mining_fortune": 30
+      }
+    }
+  },
+  "KUUDRA_MANDIBLE": {
+    "internalName": "KUUDRA_MANDIBLE",
+    "reforgeName": "Chomp",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "ROD",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 20000,
+      "UNCOMMON": 40000,
+      "RARE": 80000,
+      "EPIC": 150000,
+      "LEGENDARY": 300000,
+      "MYTHIC": 600000
+    },
+    "reforgeAbility": "§7Lava Sea Creatures have their max Health reduced for each unique lava sea creature that you've killed with this rod!",
+    "reforgeStats": {
+      "COMMON": {
+        "strength": 5,
+        "crit_chance": 5
+      },
+      "UNCOMMON": {
+        "strength": 10,
+        "crit_chance": 10
+      },
+      "RARE": {
+        "strength": 17,
+        "crit_chance": 17
+      },
+      "EPIC": {
+        "strength": 25,
+        "crit_chance": 25
+      },
+      "LEGENDARY": {
+        "strength": 35,
+        "crit_chance": 35
+      },
+      "MYTHIC": {
+        "strength": 50,
+        "crit_chance": 50
       }
     }
   },
@@ -1143,6 +1131,53 @@
       "MYTHIC": {
         "damage": 90,
         "strength": 90
+      }
+    }
+  },
+  "METEOR_SHARD": {
+    "internalName": "METEOR_SHARD",
+    "reforgeName": "Fortified",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "defense": 12
+      },
+      "UNCOMMON": {
+        "defense": 14
+      },
+      "RARE": {
+        "defense": 17
+      },
+      "EPIC": {
+        "defense": 20
+      },
+      "LEGENDARY": {
+        "defense": 25
+      },
+      "MYTHIC": {
+        "defense": 30
+      },
+      "DIVINE": {
+        "defense": 36
       }
     }
   },
@@ -1764,14 +1799,14 @@
       "VERY SPECIAL": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "UNCOMMON": "Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "RARE": "Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "EPIC": "Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "LEGENDARY": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "MYTHIC": "Gain §a+6% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "SPECIAL": "Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine.",
-      "VERY SPECIAL": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted block for ores that you mine."
+      "COMMON": "Gain §a+1% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "UNCOMMON": "Gain §a+2% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "RARE": "Gain §a+3% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "EPIC": "Gain §a+4% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "LEGENDARY": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "MYTHIC": "Gain §a+6% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "SPECIAL": "Gain §a+8% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine.",
+      "VERY SPECIAL": "Gain §a+5% §7Mining exp.\nGain a §a0.1% §7chance to drop an enchanted item for ores that you mine."
     },
     "reforgeStats": {
       "COMMON": {
@@ -1797,60 +1832,6 @@
       },
       "VERY SPECIAL": {
         "defense": 20
-      }
-    }
-  },
-  "ROCK_CANDY": {
-    "internalName": "ROCK_CANDY",
-    "reforgeName": "Sweet",
-    "reforgeType": "blacksmith/reforge_stone",
-    "itemTypes": "ACCESSORY",
-    "requiredRarities": [
-      "COMMON",
-      "UNCOMMON",
-      "RARE",
-      "EPIC",
-      "LEGENDARY",
-      "MYTHIC"
-    ],
-    "reforgeCosts": {
-      "COMMON": 20000,
-      "UNCOMMON": 40000,
-      "RARE": 80000,
-      "EPIC": 150000,
-      "LEGENDARY": 300000,
-      "MYTHIC": 600000
-    },
-    "reforgeStats": {
-      "COMMON": {
-        "health": 3,
-        "defense": 1,
-        "speed": 1
-      },
-      "UNCOMMON": {
-        "health": 4,
-        "defense": 2,
-        "speed": 1
-      },
-      "RARE": {
-        "health": 6,
-        "defense": 2,
-        "speed": 2
-      },
-      "EPIC": {
-        "health": 8,
-        "defense": 3,
-        "speed": 2
-      },
-      "LEGENDARY": {
-        "health": 12,
-        "defense": 4,
-        "speed": 3
-      },
-      "MYTHIC": {
-        "health": 16,
-        "defense": 4,
-        "speed": 4
       }
     }
   },
@@ -2052,6 +2033,114 @@
       "MYTHIC": {
         "crit_chance": 10,
         "crit_damage": 110
+      }
+    }
+  },
+  "SEARING_STONE": {
+    "internalName": "SEARING_STONE",
+    "reforgeName": "Strengthened",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "defense": 3,
+        "strength": 2
+      },
+      "UNCOMMON": {
+        "defense": 4,
+        "strength": 3
+      },
+      "RARE": {
+        "defense": 5,
+        "strength": 4
+      },
+      "EPIC": {
+        "defense": 6,
+        "strength": 5
+      },
+      "LEGENDARY": {
+        "defense": 8,
+        "strength": 6
+      },
+      "MYTHIC": {
+        "defense": 10,
+        "strength": 7
+      },
+      "DIVINE": {
+        "defense": 12,
+        "strength": 8
+      }
+    }
+  },
+  "SHINY_PRISM": {
+    "internalName": "SHINY_PRISM",
+    "reforgeName": "Glistering",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "EQUIPMENT",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC",
+      "DIVINE"
+    ],
+    "reforgeCosts": {
+      "COMMON": 7500,
+      "UNCOMMON": 15000,
+      "RARE": 30000,
+      "EPIC": 75000,
+      "LEGENDARY": 150000,
+      "MYTHIC": 300000,
+      "DIVINE": 400000
+    },
+    "reforgeStats": {
+      "COMMON": {
+        "intelligence": 2,
+        "mining_fortune": 5
+      },
+      "UNCOMMON": {
+        "intelligence": 3,
+        "mining_fortune": 6
+      },
+      "RARE": {
+        "intelligence": 4,
+        "mining_fortune": 8
+      },
+      "EPIC": {
+        "intelligence": 5,
+        "mining_fortune": 10
+      },
+      "LEGENDARY": {
+        "intelligence": 6,
+        "mining_fortune": 12
+      },
+      "MYTHIC": {
+        "intelligence": 7,
+        "mining_fortune": 15
+      },
+      "DIVINE": {
+        "intelligence": 8,
+        "mining_fortune": 16
       }
     }
   },

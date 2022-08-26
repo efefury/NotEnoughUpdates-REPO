@@ -23,6 +23,15 @@
     },
     "175": {
       "magic_find": 7
+    },
+    "225": {
+      "magic_find": 8
+    },
+    "275": {
+      "magic_find": 9
+    },
+    "325": {
+      "magic_find": 10
     }
   },
   "pet_value": {
@@ -57,6 +66,10 @@
       "1": {
         "crit_chance": 0.5,
         "damage_increase": 0.04
+      },
+      "51": {
+        "crit_chance": 0.5,
+        "damage_increase": 0.01
       }
     },
     "skill_mining": {
@@ -108,7 +121,9 @@
       }
     },
     "skill_carpentry": {
-      "1": {}
+      "1": {
+        "health": 1
+      }
     },
     "skill_runecrafting": {
       "1": {}

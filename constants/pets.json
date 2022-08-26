@@ -133,7 +133,7 @@
       "type": 1,
       "pet_levels": [
         0,
-        1,
+        5555,
         1886700,
         1886700,
         1886700,
@@ -291,6 +291,9 @@
     "GOLDEN_DRAGON": "COMBAT",
     "RAT": "COMBAT",
     "SCATHA": "MINING",
-    "AMMONITE": "FISHING"
+    "AMMONITE": "FISHING",
+    "SNAIL": "MINING",
+    "MOOSHROOM_COW": "FARMING",
+    "KUUDRA": "COMBAT"
   }
 }
