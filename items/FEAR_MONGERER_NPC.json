@@ -1,10 +1,15 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Fear Mongerer (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"06e5f2b2-a87b-5ace-9ae0-f8d8e071ebf4\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFhMmYzOGM4MGJmOTllMGMxYThkOWFmYmM4ZjRlZjJhNGRiMjI0ZGVjYTFmOWIzY2U2MzI2NmJmMTdhIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Fear Mongerer (NPC)\"},ExtraAttributes:{id:\"FEAR_MONGERER_NPC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"06e5f2b2-a87b-5ace-9ae0-f8d8e071ebf4\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFhMmYzOGM4MGJmOTllMGMxYThkOWFmYmM4ZjRlZjJhNGRiMjI0ZGVjYTFmOWIzY2U2MzI2NmJmMTdhIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Spawns during the Spooky Festival in the hub.\",1:\"§7They will arrive 1 hour before the event \",2:\"§7begins and depart 1 hour after the event ends.\",3:\"\",4:\"§7The Spooky Festival takes place\",5:\"§7from §aAutumn 29th to 31st §7for 1 hour.\"],Name:\"§9Fear Mongerer (NPC)\"},ExtraAttributes:{id:\"FEAR_MONGERER_NPC\"}}",
   "damage": 3,
   "lore": [
-    ""
+    "§7Spawns during the Spooky Festival in the hub.",
+    "§7They will arrive 1 hour before the event ",
+    "§7begins and depart 1 hour after the event ends.",
+    "",
+    "§7The Spooky Festival takes place",
+    "§7from §aAutumn 29th to 31st §7for 1 hour."
   ],
   "internalname": "FEAR_MONGERER_NPC",
   "clickcommand": "viewrecipe",

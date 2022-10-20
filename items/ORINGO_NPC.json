@@ -1,10 +1,12 @@
 {
   "itemid": "minecraft:skull",
   "displayname": "§9Oringo (NPC)",
-  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1b5d4302-915e-5464-a713-c21dfbeb894d\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg0ZTZlZWQ4ZGMyMTk3ZDEzZDFhZjRkOGNkOTc2MjkyYTU2Njc1ODFhMTI5MDdhZWM3ZTU0MzAxNzEyIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"\"],Name:\"§9Oringo (NPC)\"},ExtraAttributes:{id:\"ORINGO_NPC\"}}",
+  "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1b5d4302-915e-5464-a713-c21dfbeb894d\",Properties:{textures:[0:{Value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg0ZTZlZWQ4ZGMyMTk3ZDEzZDFhZjRkOGNkOTc2MjkyYTU2Njc1ODFhMTI5MDdhZWM3ZTU0MzAxNzEyIn19fQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Spawns during the Travelling Zoo for §a1 hour§7.\",1:\"§7The Travelling Zoo takes place\",2:\"§7twice every SkyBlock Year in the Hub.\"],Name:\"§9Oringo (NPC)\"},ExtraAttributes:{id:\"ORINGO_NPC\"}}",
   "damage": 3,
   "lore": [
-    ""
+    "§7Spawns during the Travelling Zoo for §a1 hour§7.",
+    "§7The Travelling Zoo takes place",
+    "§7twice every SkyBlock Year in the Hub."
   ],
   "internalname": "ORINGO_NPC",
   "clickcommand": "viewrecipe",
